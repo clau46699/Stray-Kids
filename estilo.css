@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/12/Stray-Kids-Symbol.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+#quienes {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#integrantes {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.skz-title {
+    color: red;
+}
+
+
+.skz-img {
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.social-links a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7e7878;
+}
+
+.links a {
+    display: block;
+    color: gold;
+    font-weight: bold;
+    margin: 8px 0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: yellow;
+}
+.skzoo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skzoo-item {
+    background: rgb(88, 88, 88);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skzoo-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.skzoo-item p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) { 
+    .skzoo-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    }
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 20px;
+}
